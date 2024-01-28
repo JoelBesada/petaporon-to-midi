@@ -1,0 +1,20 @@
+{
+  "name": "petaporon-to-midi",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "repository": "https://github.com/JoelBesada/petaporon-to-midi.git",
+  "author": "Joel Besada <joel.besada@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "convert": "NODE_NO_WARNINGS=1 node -r ts-node/register src/index.ts"
+  },
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.9",
+    "lodash": "^4.17.21",
+    "prettier": "^3.2.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
