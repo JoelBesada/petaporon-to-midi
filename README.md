@@ -12,7 +12,7 @@ $ yarn install
 
 ## Running
 
-Point the program at the petaporon json file that you want to convert to midi. It will write midi the file next to the provided json file.
+Point the program at the petaporon json file that you want to convert to midi. It will write the midi file next to the provided json file.
 
 ```
 yarn convert <path_to_json_file>
